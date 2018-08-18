@@ -1,4 +1,4 @@
-(module LPS3015 (layer F.Cu) (tedit 5B69A5F0)
+(module LPS3015 (layer F.Cu) (tedit 5B77EFC5)
   (fp_text reference REF** (at 0 -2.75) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7,7 +7,7 @@
   )
   (fp_line (start 0 -1.5) (end 0 1.5) (layer F.SilkS) (width 0.15))
   (pad 1 smd custom (at -1.27 0) (size 0.76 2.54) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -28,7 +28,7 @@
          (xy 0.38 0.825) (xy 0.76 0.825) (xy 0.38 0.51)) (width 0))
     ))
   (pad 2 smd custom (at 1.27 0 180) (size 0.76 2.54) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
